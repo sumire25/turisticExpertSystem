@@ -4,9 +4,12 @@
         <p class="descripcion-seccion">{{ seccion.descripcion }}</p>
         <div class="intereses-lista">
             {% for interes in seccion.intereses %}
-                <img src="{{ interes.url }}" alt="{{ interes.alt }}" class="interes-img"
-                     data-interes="{{ interes.data_interes }}"
-                     data-seccion="{{ seccion.titulo }}">
+                <div class="interes-opcion" style="display:inline-block; text-align:center; margin:8px;">
+                    <span style="display:block; margin-bottom:4px;">{{ interes.alt }}</span>
+                    <img src="{{ interes.url }}" alt="{{ interes.alt }}" class="interes-img"
+                         data-interes="{{ interes.data_interes }}"
+                         data-seccion="{{ seccion.titulo }}">
+                </div>
             {% endfor %}
         </div>
     </div>

@@ -12,31 +12,189 @@
             'titulo': 'Clima',
             'descripcion': 'Selecciona el clima de tu preferencia',
             'intereses': [
-                {'url': url_for('static', filename='img/nublado.png'), 'alt': 'Nublado', 'data_interes': 'nublado'},
-                {'url': url_for('static', filename='img/soleado.png'), 'alt': 'Soleado', 'data_interes': 'soleado'}
+                {'url': url_for('static', filename='img/cálido.png'), 'alt': 'Cálido', 'data_interes': 'cálido'},
+                {'url': url_for('static', filename='img/frío.png'), 'alt': 'Frío', 'data_interes': 'frío'},
+                {'url': url_for('static', filename='img/húmedo.png'), 'alt': 'Húmedo', 'data_interes': 'húmedo'},
+                {'url': url_for('static', filename='img/seco.png'), 'alt': 'Seco', 'data_interes': 'seco'},
+                {'url': url_for('static', filename='img/soleado.png'), 'alt': 'Soleado', 'data_interes': 'soleado'},
+                {'url': url_for('static', filename='img/templado.png'), 'alt': 'Templado', 'data_interes': 'templado'}
             ]
         },
         {
-            'titulo': 'Transporte',
-            'descripcion': 'Selecciona tu medio de transporte favorito',
+            'titulo': 'Región',
+            'descripcion': 'Selecciona la región que prefieres',
             'intereses': [
-                {'url': url_for('static', filename='img/bus.png'), 'alt': 'Bus', 'data_interes': 'bus'},
-                {'url': url_for('static', filename='img/vuelo.png'), 'alt': 'Vuelo', 'data_interes': 'vuelo'}
+                {'url': url_for('static', filename='img/costa.png'), 'alt': 'Costa', 'data_interes': 'costa'},
+                {'url': url_for('static', filename='img/sierra.png'), 'alt': 'Sierra', 'data_interes': 'sierra'},
+                {'url': url_for('static', filename='img/selva.png'), 'alt': 'Selva', 'data_interes': 'selva'},
+                {'url': url_for('static', filename='img/selva_alta.png'), 'alt': 'Selva Alta', 'data_interes': 'selva alta'}
             ]
         },
         {
-            'titulo': 'Cultura y Gastronomía',
-            'descripcion': 'Selecciona tus intereses culturales o gastronómicos',
+            'titulo': 'Cultura',
+            'descripcion': 'Selecciona tus intereses culturales',
             'intereses': [
-                {'url': url_for('static', filename='img/cultura.jfif'), 'alt': 'Cultura', 'data_interes': 'cultura'},
-                {'url': url_for('static', filename='img/gastronomia.jpg'), 'alt': 'Gastronomía', 'data_interes': 'gastronomia'}
+                {'url': url_for('static', filename='img/agroturismo.png'), 'alt': 'Agroturismo', 'data_interes': 'agroturismo'},
+                {'url': url_for('static', filename='img/amazonia.png'), 'alt': 'Amazonia', 'data_interes': 'amazonia'},
+                {'url': url_for('static', filename='img/andino.png'), 'alt': 'Andino', 'data_interes': 'andino'},
+                {'url': url_for('static', filename='img/arte.png'), 'alt': 'Arte', 'data_interes': 'arte'},
+                {'url': url_for('static', filename='img/artesania.png'), 'alt': 'Artesania', 'data_interes': 'artesania'},
+                {'url': url_for('static', filename='img/autentico.png'), 'alt': 'Auténtico', 'data_interes': 'auténtico'},
+                {'url': url_for('static', filename='img/caballito_de_totora.png'), 'alt': 'Caballito de Totora', 'data_interes': 'caballito de totora'},
+                {'url': url_for('static', filename='img/carnaval.png'), 'alt': 'Carnaval', 'data_interes': 'carnaval'},
+                {'url': url_for('static', filename='img/ceramica.png'), 'alt': 'Cerámica', 'data_interes': 'ceramica'},
+                {'url': url_for('static', filename='img/chan_chan.png'), 'alt': 'Chan Chan', 'data_interes': 'chan chan'},
+                {'url': url_for('static', filename='img/chullpas.png'), 'alt': 'Chullpas', 'data_interes': 'chullpas'},
+                {'url': url_for('static', filename='img/colonial.png'), 'alt': 'Colonial', 'data_interes': 'colonial'},
+                {'url': url_for('static', filename='img/comunidad.png'), 'alt': 'Comunidad', 'data_interes': 'comunidad'},
+                {'url': url_for('static', filename='img/comunidad_nativa.png'), 'alt': 'Comunidad Nativa', 'data_interes': 'comunidad nativa'},
+                {'url': url_for('static', filename='img/etnobotanica.png'), 'alt': 'Etnobotánica', 'data_interes': 'etnobotanica'},
+                {'url': url_for('static', filename='img/feria.png'), 'alt': 'Feria', 'data_interes': 'feria'},
+                {'url': url_for('static', filename='img/fiesta.png'), 'alt': 'Fiesta', 'data_interes': 'fiesta'},
+                {'url': url_for('static', filename='img/fortaleza.png'), 'alt': 'Fortaleza', 'data_interes': 'fortaleza'},
+                {'url': url_for('static', filename='img/historia.png'), 'alt': 'Historia', 'data_interes': 'historia'},
+                {'url': url_for('static', filename='img/huaca.png'), 'alt': 'Huaca', 'data_interes': 'huaca'},
+                {'url': url_for('static', filename='img/inca.png'), 'alt': 'Inca', 'data_interes': 'inca'},
+                {'url': url_for('static', filename='img/isla.png'), 'alt': 'Isla', 'data_interes': 'isla'},
+                {'url': url_for('static', filename='img/lineas.png'), 'alt': 'Líneas', 'data_interes': 'lineas'},
+                {'url': url_for('static', filename='img/manglares.png'), 'alt': 'Manglares', 'data_interes': 'manglares'},
+                {'url': url_for('static', filename='img/marinera.png'), 'alt': 'Marinera', 'data_interes': 'marinera'},
+                {'url': url_for('static', filename='img/mercado.png'), 'alt': 'Mercado', 'data_interes': 'mercado'},
+                {'url': url_for('static', filename='img/misticismo.png'), 'alt': 'Misticismo', 'data_interes': 'misticismo'},
+                {'url': url_for('static', filename='img/monasterio.png'), 'alt': 'Monasterio', 'data_interes': 'monasterio'},
+                {'url': url_for('static', filename='img/museo.png'), 'alt': 'Museo', 'data_interes': 'museo'},
+                {'url': url_for('static', filename='img/misterio.png'), 'alt': 'Misterio', 'data_interes': 'misterio'},
+                {'url': url_for('static', filename='img/piedra_de_huamanga.png'), 'alt': 'Piedra de Huamanga', 'data_interes': 'piedra de huamanga'},
+                {'url': url_for('static', filename='img/pisco.png'), 'alt': 'Pisco', 'data_interes': 'pisco'},
+                {'url': url_for('static', filename='img/pre-inca.png'), 'alt': 'Pre-Inca', 'data_interes': 'pre-inca'},
+                {'url': url_for('static', filename='img/pueblito.png'), 'alt': 'Pueblito', 'data_interes': 'pueblito'},
+                {'url': url_for('static', filename='img/religioso.png'), 'alt': 'Religioso', 'data_interes': 'religioso'},
+                {'url': url_for('static', filename='img/ritual.png'), 'alt': 'Ritual', 'data_interes': 'ritual'},
+                {'url': url_for('static', filename='img/rural.png'), 'alt': 'Rural', 'data_interes': 'rural'},
+                {'url': url_for('static', filename='img/sillar.png'), 'alt': 'Sillar', 'data_interes': 'sillar'},
+                {'url': url_for('static', filename='img/taquile.png'), 'alt': 'Taquile', 'data_interes': 'taquile'},
+                {'url': url_for('static', filename='img/urbano.png'), 'alt': 'Urbano', 'data_interes': 'urbano'},
+                {'url': url_for('static', filename='img/uro.png'), 'alt': 'Uro', 'data_interes': 'uro'}
             ]
         },
         {
-            'titulo': 'Atractivos',
-            'descripcion': 'Selecciona el tipo de atractivo que prefieres',
+            'titulo': 'Gastronomía',
+            'descripcion': 'Selecciona tus intereses gastronómicos',
             'intereses': [
-                {'url': url_for('static', filename='img/atractivos-ambientales.jpg'), 'alt': 'Atractivo Ambiental', 'data_interes': 'atractivo-ambiental'}
+                {'url': url_for('static', filename='img/adobo.png'), 'alt': 'Adobo', 'data_interes': 'adobo'},
+                {'url': url_for('static', filename='img/aji_de_gallina.png'), 'alt': 'Ají de Gallina', 'data_interes': 'aji de gallina'},
+                {'url': url_for('static', filename='img/caldo_verde.png'), 'alt': 'Caldo Verde', 'data_interes': 'caldo verde'},
+                {'url': url_for('static', filename='img/carapulcra.png'), 'alt': 'Carapulcra', 'data_interes': 'carapulcra'},
+                {'url': url_for('static', filename='img/cafe.png'), 'alt': 'Café', 'data_interes': 'cafe'},
+                {'url': url_for('static', filename='img/ceviche.png'), 'alt': 'Ceviche', 'data_interes': 'ceviche'},
+                {'url': url_for('static', filename='img/chairo.png'), 'alt': 'Chairo', 'data_interes': 'chairo'},
+                {'url': url_for('static', filename='img/chicha_de_jora.png'), 'alt': 'Chicha de Jora', 'data_interes': 'chicha de jora'},
+                {'url': url_for('static', filename='img/chuño.png'), 'alt': 'Chuño', 'data_interes': 'chuño'},
+                {'url': url_for('static', filename='img/chupe.png'), 'alt': 'Chupe', 'data_interes': 'chupe'},
+                {'url': url_for('static', filename='img/conchas_negras.png'), 'alt': 'Conchas Negras', 'data_interes': 'conchas negras'},
+                {'url': url_for('static', filename='img/cuy_chactado.png'), 'alt': 'Cuy Chactado', 'data_interes': 'cuy chactado'},
+                {'url': url_for('static', filename='img/cuy_frito.png'), 'alt': 'Cuy Frito', 'data_interes': 'cuy frito'},
+                {'url': url_for('static', filename='img/doncella.png'), 'alt': 'Doncella', 'data_interes': 'doncella'},
+                {'url': url_for('static', filename='img/fusion.png'), 'alt': 'Fusión', 'data_interes': 'fusion'},
+                {'url': url_for('static', filename='img/inchicapi.png'), 'alt': 'Inchicapi', 'data_interes': 'inchicapi'},
+                {'url': url_for('static', filename='img/juane.png'), 'alt': 'Juane', 'data_interes': 'juane'},
+                {'url': url_for('static', filename='img/lechon.png'), 'alt': 'Lechón', 'data_interes': 'lechon'},
+                {'url': url_for('static', filename='img/lomo_saltado.png'), 'alt': 'Lomo Saltado', 'data_interes': 'lomo saltado'},
+                {'url': url_for('static', filename='img/marisco.png'), 'alt': 'Marisco', 'data_interes': 'marisco'},
+                {'url': url_for('static', filename='img/mondongo.png'), 'alt': 'Mondongo', 'data_interes': 'mondongo'},
+                {'url': url_for('static', filename='img/paiche.png'), 'alt': 'Paiche', 'data_interes': 'paiche'},
+                {'url': url_for('static', filename='img/pachamanca.png'), 'alt': 'Pachamanca', 'data_interes': 'pachamanca'},
+                {'url': url_for('static', filename='img/patachi.png'), 'alt': 'Patachi', 'data_interes': 'patachi'},
+                {'url': url_for('static', filename='img/patarashca.png'), 'alt': 'Patarashca', 'data_interes': 'patarashca'},
+                {'url': url_for('static', filename='img/pescado.png'), 'alt': 'Pescado', 'data_interes': 'pescado'},
+                {'url': url_for('static', filename='img/pisco.png'), 'alt': 'Pisco', 'data_interes': 'pisco'},
+                {'url': url_for('static', filename='img/pisco_sour.png'), 'alt': 'Pisco Sour', 'data_interes': 'pisco sour'},
+                {'url': url_for('static', filename='img/puca_picante.png'), 'alt': 'Puca Picante', 'data_interes': 'puca picante'},
+                {'url': url_for('static', filename='img/queso.png'), 'alt': 'Queso', 'data_interes': 'queso'},
+                {'url': url_for('static', filename='img/queso_helado.png'), 'alt': 'Queso Helado', 'data_interes': 'queso helado'},
+                {'url': url_for('static', filename='img/qapchi.png'), 'alt': 'Qapchi', 'data_interes': 'qapchi'},
+                {'url': url_for('static', filename='img/rocoto_relleno.png'), 'alt': 'Rocoto Relleno', 'data_interes': 'rocoto relleno'},
+                {'url': url_for('static', filename='img/seco_de_chabelo.png'), 'alt': 'Seco de Chabelo', 'data_interes': 'seco de chabelo'},
+                {'url': url_for('static', filename='img/shambar.png'), 'alt': 'Shambar', 'data_interes': 'shambar'},
+                {'url': url_for('static', filename='img/sopa_seca.png'), 'alt': 'Sopa Seca', 'data_interes': 'sopa seca'},
+                {'url': url_for('static', filename='img/tacacho.png'), 'alt': 'Tacacho', 'data_interes': 'tacacho'},
+                {'url': url_for('static', filename='img/trucha.png'), 'alt': 'Trucha', 'data_interes': 'trucha'},
+                {'url': url_for('static', filename='img/vino.png'), 'alt': 'Vino', 'data_interes': 'vino'}
+            ]
+        },
+        {
+            'titulo': 'Naturaleza',
+            'descripcion': 'Selecciona tus intereses de naturaleza',
+            'intereses': [
+                {'url': url_for('static', filename='img/aguas_turquesas.png'), 'alt': 'Aguas Turquesas', 'data_interes': 'aguas turquesas'},
+                {'url': url_for('static', filename='img/amazonas.png'), 'alt': 'Amazonas', 'data_interes': 'amazonas'},
+                {'url': url_for('static', filename='img/biodiversidad.png'), 'alt': 'Biodiversidad', 'data_interes': 'biodiversidad'},
+                {'url': url_for('static', filename='img/bosque.png'), 'alt': 'Bosque', 'data_interes': 'bosque'},
+                {'url': url_for('static', filename='img/bosque_de_piedras.png'), 'alt': 'Bosque de Piedras', 'data_interes': 'bosque de piedras'},
+                {'url': url_for('static', filename='img/cañon.png'), 'alt': 'Cañón', 'data_interes': 'cañon'},
+                {'url': url_for('static', filename='img/catarata.png'), 'alt': 'Catarata', 'data_interes': 'catarata'},
+                {'url': url_for('static', filename='img/costa.png'), 'alt': 'Costa', 'data_interes': 'costa'},
+                {'url': url_for('static', filename='img/desierto.png'), 'alt': 'Desierto', 'data_interes': 'desierto'},
+                {'url': url_for('static', filename='img/fauna.png'), 'alt': 'Fauna', 'data_interes': 'fauna'},
+                {'url': url_for('static', filename='img/fauna_marina.png'), 'alt': 'Fauna Marina', 'data_interes': 'fauna marina'},
+                {'url': url_for('static', filename='img/guacamayos.png'), 'alt': 'Guacamayos', 'data_interes': 'guacamayos'},
+                {'url': url_for('static', filename='img/isla.png'), 'alt': 'Isla', 'data_interes': 'isla'},
+                {'url': url_for('static', filename='img/lago.png'), 'alt': 'Lago', 'data_interes': 'lago'},
+                {'url': url_for('static', filename='img/manglares.png'), 'alt': 'Manglares', 'data_interes': 'manglares'},
+                {'url': url_for('static', filename='img/selva.png'), 'alt': 'Selva', 'data_interes': 'selva'},
+                {'url': url_for('static', filename='img/selva_alta.png'), 'alt': 'Selva Alta', 'data_interes': 'selva alta'},
+            ]
+        },
+        {
+            'titulo': 'Aventura',
+            'descripcion': 'Selecciona tus intereses de aventura',
+            'intereses': [
+                {'url': url_for('static', filename='img/bicicleta.png'), 'alt': 'Bicicleta', 'data_interes': 'bicicleta'},
+                {'url': url_for('static', filename='img/bote.png'), 'alt': 'Bote', 'data_interes': 'bote'},
+                {'url': url_for('static', filename='img/buceo.png'), 'alt': 'Buceo', 'data_interes': 'buceo'},
+                {'url': url_for('static', filename='img/caminata.png'), 'alt': 'Caminata', 'data_interes': 'caminata'},
+                {'url': url_for('static', filename='img/canopy.png'), 'alt': 'Canopy', 'data_interes': 'canopy'},
+                {'url': url_for('static', filename='img/ciclismo.png'), 'alt': 'Ciclismo', 'data_interes': 'ciclismo'},
+                {'url': url_for('static', filename='img/escalada.png'), 'alt': 'Escalada', 'data_interes': 'escalada'},
+                {'url': url_for('static', filename='img/expedicion.png'), 'alt': 'Expedición', 'data_interes': 'expedicion'},
+                {'url': url_for('static', filename='img/pesca.png'), 'alt': 'Pesca', 'data_interes': 'pesca'},
+            ]
+        },
+        {
+            'titulo': 'Presupuesto',
+            'descripcion': 'Selecciona tu presupuesto preferido',
+            'intereses': [
+                {'url': url_for('static', filename='img/economico.png'), 'alt': 'Económico', 'data_interes': 'economico'},
+                {'url': url_for('static', filename='img/lujoso.png'), 'alt': 'Lujoso', 'data_interes': 'lujoso'},
+                {'url': url_for('static', filename='img/medio.png'), 'alt': 'Medio', 'data_interes': 'medio'}
+            ]
+        },
+        {
+            'titulo': 'Tipo de Compañía',
+            'descripcion': 'Selecciona con quién viajas',
+            'intereses': [
+                {'url': url_for('static', filename='img/familia.png'), 'alt': 'Familia', 'data_interes': 'familia'},
+                {'url': url_for('static', filename='img/grupo_de_amigos.png'), 'alt': 'Grupo de Amigos', 'data_interes': 'grupo de amigos'},
+                {'url': url_for('static', filename='img/pareja.png'), 'alt': 'Pareja', 'data_interes': 'pareja'},
+                {'url': url_for('static', filename='img/solo.png'), 'alt': 'Solo', 'data_interes': 'solo'}
+            ]
+        },
+        {
+            'titulo': 'Duración del Viaje',
+            'descripcion': 'Selecciona la duración de tu viaje',
+            'intereses': [
+                {'url': url_for('static', filename='img/fin_de_semana.png'), 'alt': 'Fin de Semana', 'data_interes': 'fin de semana'},
+                {'url': url_for('static', filename='img/semana.png'), 'alt': 'Semana', 'data_interes': 'semana'},
+                {'url': url_for('static', filename='img/viaje_largo.png'), 'alt': 'Viaje Largo', 'data_interes': 'viaje largo'}
+            ]
+        },
+        {
+            'titulo': 'Accesibilidad',
+            'descripcion': 'Selecciona la accesibilidad que prefieres',
+            'intereses': [
+                {'url': url_for('static', filename='img/alta.png'), 'alt': 'Alta', 'data_interes': 'alta'},
+                {'url': url_for('static', filename='img/dificil.png'), 'alt': 'Difícil', 'data_interes': 'dificil'},
+                {'url': url_for('static', filename='img/media.png'), 'alt': 'Media', 'data_interes': 'media'},
             ]
         }
     ] %}

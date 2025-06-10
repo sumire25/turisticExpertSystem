@@ -13,7 +13,7 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12px;
+    gap: 24px;
     margin-bottom: 24px;
 }
 .interes-img {
@@ -92,4 +92,9 @@ h2 {
     color: #555;
     margin-bottom: 12px;
     font-size: 0.97em;
+}
+
+.interes-opcion {
+    display: inline-flex;
+    text-align: center;
 }
