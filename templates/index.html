@@ -45,6 +45,29 @@
     {% set texto = 'Buscar lugares recomendados' %}
     {% include 'atoms/button.html' %}
     {% include 'organisms/resultados_lista.html' %}
+    <script>
+        const imageMap = {
+            "Lima": "{{ image_map['Lima'] }}",
+            "Cusco": "{{ image_map['Cusco'] }}",
+            "Arequipa": "{{ image_map['Arequipa'] }}",
+            "Iquitos": "{{ image_map['Iquitos'] }}",
+            "Trujillo": "{{ image_map['Trujillo'] }}",
+            "Puno": "{{ image_map['Puno'] }}",
+            "Nazca": "{{ image_map['Nazca'] }}",
+            "Chachapoyas": "{{ image_map['Chachapoyas'] }}",
+            "Huaraz": "{{ image_map['Huaraz'] }}",
+            "Tarapoto": "{{ image_map['Tarapoto'] }}",
+            "Puerto Maldonado": "{{ image_map['Puerto Maldonado'] }}",
+            "Tumbes": "{{ image_map['Tumbes'] }}",
+            "Ica": "{{ image_map['Ica'] }}",
+            "Cajamarca": "{{ image_map['Cajamarca'] }}",
+            "Piura": "{{ image_map['Piura'] }}",
+            "Ayacucho": "{{ image_map['Ayacucho'] }}",
+            "Andahuaylas": "{{ image_map['Andahuaylas'] }}",
+            "La Mar (Ayacucho)": "{{ image_map['La Mar (Ayacucho)'] }}",
+            "Pichari (VRAEM)": "{{ image_map['Pichari (VRAEM)'] }}"
+        };
+    </script>
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>
