@@ -57,6 +57,8 @@ def obtener_recomendaciones():
             "recomendaciones": recomendaciones_para_json
         }), 200 # Código de estado HTTP 200 OK
     else:
+        print("No se encontraron recomendaciones para las preferencias recibidas.")
+
         # Si no se encontraron recomendaciones, devuelve un mensaje apropiado
         return jsonify({
             "mensaje": "Lo siento, no encontramos ningún lugar que coincida con tus preferencias. Intenta con otras opciones.",

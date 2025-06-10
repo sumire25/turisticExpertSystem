@@ -30,23 +30,28 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .then(res => res.json())
         .then(data => {
-            mostrarResultados(data.lugares);
+            mostrarResultados(data.recomendaciones);
         });
     });
 
-    function mostrarResultados(lugares) {
+    function mostrarResultados(recomendaciones) {
         const div = document.getElementById('resultados');
         div.innerHTML = '';
-        if (!lugares || lugares.length === 0) {
+        if (!recomendaciones || recomendaciones.length === 0) {
             div.innerHTML = '<p style="text-align:center;color:#888;">No se encontraron lugares recomendados.</p>';
             return;
         }
-        div.innerHTML = lugares.map(lugar => `
+        div.innerHTML = recomendaciones.map(lugar => `
             <div class="lugar-card">
-                <img class="lugar-img" src="${lugar.imagen || ''}" alt="${lugar.nombre}">
                 <div class="lugar-info">
-                    <h3>${lugar.nombre}</h3>
-                    <span>${lugar.descripcion}</span>
+                    <h3>${lugar.nombre} (${lugar.departamento})</h3>
+                    <span>${lugar.descripcion_detallada}</span><br>
+                    <b>Puntuación:</b> ${lugar.puntuacion}<br>
+                    <b>Regiones:</b> ${lugar.regiones.join(', ')}<br>
+                    <b>Climas ideales:</b> ${lugar.climas_ideal.join(', ')}<br>
+                    <b>Accesibilidad:</b> ${lugar.accesibilidad_texto}<br>
+                    <b>Presupuesto:</b> ${lugar.presupuesto_requerido.join(', ')}<br>
+                    <b>Explicaciones:</b> ${lugar.explicaciones.join('; ')}
                 </div>
             </div>
         `).join('');
