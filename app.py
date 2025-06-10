@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, url_for
 from expert_system.knowledge_base import lugares_turisticos_peru
 from expert_system.inference_engine import recomendar_lugares
 
@@ -7,7 +7,29 @@ app = Flask(__name__)
 # --- FRONTEND: rutas para mostrar páginas ---
 @app.route('/')
 def index():
-    return render_template('index.html')
+    image_map = {
+        "Lima": url_for('static', filename='img/lima.jpg'),
+        "Cusco": url_for('static', filename='img/cusco.jpg'),
+        "Arequipa": url_for('static', filename='img/arequipa.jpg'),
+        "Iquitos": url_for('static', filename='img/iquitos.jpg'),
+        "Trujillo": url_for('static', filename='img/trujillo.jpg'),
+        "Puno": url_for('static', filename='img/puno.jpg'),
+        "Nazca": url_for('static', filename='img/nazca.jpg'),
+        "Chachapoyas": url_for('static', filename='img/chachapoyas.jpg'),
+        "Huaraz": url_for('static', filename='img/huaraz.jpg'),
+        "Tarapoto": url_for('static', filename='img/tarapoto.jpg'),
+        "Puerto Maldonado": url_for('static', filename='img/puerto_maldonado.jpg'),
+        "Tumbes": url_for('static', filename='img/tumbes.jpg'),
+        "Ica": url_for('static', filename='img/ica.jpg'),
+        "Cajamarca": url_for('static', filename='img/cajamarca.jpg'),
+        "Piura": url_for('static', filename='img/piura.jpg'),
+        "Ayacucho": url_for('static', filename='img/ayacucho.jpg'),
+        "Andahuaylas": url_for('static', filename='img/andahuaylas.jpg'),
+        "La Mar (Ayacucho)": url_for('static', filename='img/la_mar.jpg'),
+        "Pichari (VRAEM)": url_for('static', filename='img/pichari.jpg')
+    }
+    return render_template('index.html', image_map=image_map)
+
 
 @app.route('/resultado', methods=['POST'])
 def resultado():

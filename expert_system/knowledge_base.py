@@ -15,7 +15,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["alta"]
         },
-        "descripcion_detallada": "La vibrante capital de Perú es una metrópolis que fusiona lo moderno con lo histórico. Famosa por su **exquisita gastronomía** aclamada mundialmente, sus imperdibles **museos** como el Museo Larco, y su **Centro Histórico Colonial** (Patrimonio de la Humanidad). Los barrios de **Miraflores** y **Barranco** ofrecen vistas espectaculares al Pacífico, opciones de **surf** y **parapente**, así como una animada vida nocturna.",
+        "descripcion_detallada": "La vibrante capital de Perú es una metrópolis que fusiona lo moderno con lo histórico. Famosa por su exquisita gastronomía aclamada mundialmente, sus imperdibles museos como el Museo Larco, y su Centro Histórico Colonial (Patrimonio de la Humanidad). Los barrios de Miraflores y Barranco ofrecen vistas espectaculares al Pacífico, opciones de surf y parapente, así como una animada vida nocturna.",
         "accesibilidad_texto": "Alta" # Campo para facilitar la inferencia de accesibilidad
     },
     # Cusco (Departamento: Cusco)
@@ -34,7 +34,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["semana", "viaje largo"],
             "Accesibilidad": ["alta"]
         },
-        "descripcion_detallada": "El 'Ombligo del Mundo' y corazón del Imperio Inca. Cusco es la puerta de entrada a la maravilla de **Machu Picchu** y a impresionantes sitios arqueológicos como **Sacsayhuamán** y **Qorikancha**. Sus calles empedradas y arquitectura colonial son un deleite. Ofrece inolvidables experiencias de **trekking** a la **Montaña de Siete Colores** o la **Laguna Humantay**, y vibrantes festividades como el **Inti Raymi**.",
+        "descripcion_detallada": "El 'Ombligo del Mundo' y corazón del Imperio Inca. Cusco es la puerta de entrada a la maravilla de Machu Picchu y a impresionantes sitios arqueológicos como Sacsayhuamán y Qorikancha. Sus calles empedradas y arquitectura colonial son un deleite. Ofrece inolvidables experiencias de trekking a la Montaña de Siete Colores o la Laguna Humantay, y vibrantes festividades como el Inti Raymi.",
         "accesibilidad_texto": "Alta"
     },
     # Arequipa (Departamento: Arequipa)
@@ -53,7 +53,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["alta"]
         },
-        "descripcion_detallada": "La 'Ciudad Blanca', construida casi en su totalidad con sillar volcánico. Admira el impresionante **Monasterio de Santa Catalina** y la majestuosa **Plaza de Armas**. Es el punto de partida para el **Cañón del Colca**, uno de los más profundos del mundo y hogar del cóndor andino, ideal para **trekking** y **rafting** en el río Chili.",
+        "descripcion_detallada": "La 'Ciudad Blanca', construida casi en su totalidad con sillar volcánico. Admira el impresionante Monasterio de Santa Catalina y la majestuosa Plaza de Armas. Es el punto de partida para el Cañón del Colca, uno de los más profundos del mundo y hogar del cóndor andino, ideal para trekking y rafting en el río Chili.",
         "accesibilidad_texto": "Alta"
     },
     # Iquitos (Departamento: Loreto)
@@ -72,7 +72,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["semana", "viaje largo"],
             "Accesibilidad": ["media"]
         },
-        "descripcion_detallada": "La vibrante capital de la Amazonía peruana, solo accesible por aire o río. Sumérgete en la inmensidad de la selva explorando la **Reserva Nacional Pacaya Samiria** o el **Río Amazonas**. Es un paraíso para el **ecoturismo**, la **observación de fauna** y el contacto con **comunidades nativas**.",
+        "descripcion_detallada": "La vibrante capital de la Amazonía peruana, solo accesible por aire o río. Sumérgete en la inmensidad de la selva explorando la Reserva Nacional Pacaya Samiria o el Río Amazonas. Es un paraíso para el ecoturismo, la observación de fauna y el contacto con comunidades nativas.",
         "accesibilidad_texto": "Media"
     },
     # Trujillo (Departamento: La Libertad)
@@ -91,7 +91,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["alta"]
         },
-        "descripcion_detallada": "La 'Ciudad de la Eterna Primavera' es un tesoro arqueológico y cultural. Visita la grandiosa ciudadela de barro de **Chan Chan** y las impresionantes **Huacas del Sol y la Luna**. Disfruta de sus playas como **Huanchaco**, famosa por el **surf** y los ancestrales **caballitos de totora**, y su vibrante tradición de la danza Marinera.",
+        "descripcion_detallada": "La 'Ciudad de la Eterna Primavera' es un tesoro arqueológico y cultural. Visita la grandiosa ciudadela de barro de Chan Chan y las impresionantes Huacas del Sol y la Luna. Disfruta de sus playas como Huanchaco, famosa por el surf y los ancestrales caballitos de totora, y su vibrante tradición de la danza Marinera.",
         "accesibilidad_texto": "Alta"
     },
     # Puno (Departamento: Puno)
@@ -110,7 +110,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["media"]
         },
-        "descripcion_detallada": "La 'Capital Folclórica del Perú', se asienta a orillas del inmenso **Lago Titicaca**, el lago navegable más alto del mundo. Explora las únicas **Islas Flotantes de los Uros**, sumérgete en la cultura ancestral de **Taquile** y **Amantani**, y admira las enigmáticas **Chullpas de Sillustani**.",
+        "descripcion_detallada": "La 'Capital Folclórica del Perú', se asienta a orillas del inmenso Lago Titicaca, el lago navegable más alto del mundo. Explora las únicas Islas Flotantes de los Uros, sumérgete en la cultura ancestral de Taquile y Amantani, y admira las enigmáticas Chullpas de Sillustani.",
         "accesibilidad_texto": "Media"
     },
     # Nazca (Departamento: Ica)
@@ -129,7 +129,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["alta"]
         },
-        "descripcion_detallada": "Conocida mundialmente por las enigmáticas **Líneas de Nazca**, gigantescos geoglifos que solo se aprecian desde el aire. Complementa tu visita con una aventura en el desierto con **sandboarding** y paseos en **tubulares** en el cercano **Oasis de Huacachina**. Descubre también los antiguos **Acueductos de Cantalloc**.",
+        "descripcion_detallada": "Conocida mundialmente por las enigmáticas Líneas de Nazca, gigantescos geoglifos que solo se aprecian desde el aire. Complementa tu visita con una aventura en el desierto con sandboarding y paseos en tubulares en el cercano Oasis de Huacachina. Descubre también los antiguos Acueductos de Cantalloc.",
         "accesibilidad_texto": "Alta"
     },
     # Chachapoyas (Departamento: Amazonas)
@@ -148,7 +148,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["semana", "viaje largo"],
             "Accesibilidad": ["media"]
         },
-        "descripcion_detallada": "La 'Ciudad de las Nubes', puerta de entrada a la asombrosa fortaleza de **Kuélap**, la 'Machu Picchu del Norte', y a la imponente **Catarata Gocta**, una de las más altas del mundo. Descubre los misteriosos **Sarcófagos de Karajía** y sumérgete en la cultura ancestral de los Chachapoya.",
+        "descripcion_detallada": "La 'Ciudad de las Nubes', puerta de entrada a la asombrosa fortaleza de Kuélap, la 'Machu Picchu del Norte', y a la imponente Catarata Gocta, una de las más altas del mundo. Descubre los misteriosos Sarcófagos de Karajía y sumérgete en la cultura ancestral de los Chachapoya.",
         "accesibilidad_texto": "Media"
     },
     # Huaraz (Departamento: Ancash)
@@ -167,7 +167,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["semana", "viaje largo"],
             "Accesibilidad": ["media"]
         },
-        "descripcion_detallada": "La capital del montañismo en Perú, anidada en la majestuosa Cordillera Blanca. Es la base para explorar el **Parque Nacional Huascarán**, con sus espectaculares lagunas de color turquesa como la **Laguna 69** y glaciares impresionantes como el **Nevado Pastoruri**. Un paraíso para el **trekking** de alta montaña y la **escalada**.",
+        "descripcion_detallada": "La capital del montañismo en Perú, anidada en la majestuosa Cordillera Blanca. Es la base para explorar el Parque Nacional Huascarán, con sus espectaculares lagunas de color turquesa como la Laguna 69 y glaciares impresionantes como el Nevado Pastoruri. Un paraíso para el trekking de alta montaña y la escalada.",
         "accesibilidad_texto": "Media"
     },
     # Tarapoto (Departamento: San Martín)
@@ -186,7 +186,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["alta"]
         },
-        "descripcion_detallada": "La 'Ciudad de las Palmeras', un oasis amazónico con fácil acceso a impresionantes caídas de agua como la **Catarata de Ahuashiyacu**, la serena **Laguna Azul** (Sauce) y refrescantes **Baños Termales de Cocalmayo**. Un destino perfecto para combinar la aventura en la selva con momentos de relax y disfrutar de la gastronomía regional.",
+        "descripcion_detallada": "La 'Ciudad de las Palmeras', un oasis amazónico con fácil acceso a impresionantes caídas de agua como la Catarata de Ahuashiyacu, la serena Laguna Azul (Sauce) y refrescantes Baños Termales de Cocalmayo. Un destino perfecto para combinar la aventura en la selva con momentos de relax y disfrutar de la gastronomía regional.",
         "accesibilidad_texto": "Alta"
     },
     # Puerto Maldonado (Departamento: Madre de Dios)
@@ -205,7 +205,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["semana", "viaje largo"],
             "Accesibilidad": ["media"]
         },
-        "descripcion_detallada": "La capital de la biodiversidad peruana y puerta de entrada a la **Reserva Nacional de Tambopata**. Explora el hermoso **Lago Sandoval**, navega por el **Río Madre de Dios** y sé testigo del asombroso espectáculo de la **Collpa de Guacamayos**, un lugar donde cientos de aves se congregan. Ideal para el **ecoturismo** y la inmersión en la selva amazónica.",
+        "descripcion_detallada": "La capital de la biodiversidad peruana y puerta de entrada a la Reserva Nacional de Tambopata. Explora el hermoso Lago Sandoval, navega por el Río Madre de Dios y sé testigo del asombroso espectáculo de la Collpa de Guacamayos, un lugar donde cientos de aves se congregan. Ideal para el ecoturismo y la inmersión en la selva amazónica.",
         "accesibilidad_texto": "Media"
     },
     # Tumbes (Departamento: Tumbes)
@@ -224,7 +224,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["alta"]
         },
-        "descripcion_detallada": "Un destino costero con playas paradisíacas como **Punta Sal** y **Zorritos**, perfectas para el relax y los deportes acuáticos. Descubre la rica biodiversidad del **Santuario Nacional Los Manglares de Tumbes**, un ecosistema único. Disfruta de la deliciosa gastronomía marina, destacando el **ceviche de conchas negras**.",
+        "descripcion_detallada": "Un destino costero con playas paradisíacas como Punta Sal y Zorritos, perfectas para el relax y los deportes acuáticos. Descubre la rica biodiversidad del Santuario Nacional Los Manglares de Tumbes, un ecosistema único. Disfruta de la deliciosa gastronomía marina, destacando el ceviche de conchas negras.",
         "accesibilidad_texto": "Alta"
     },
     # Ica (Departamento: Ica)
@@ -243,7 +243,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["alta"]
         },
-        "descripcion_detallada": "Tierra del pisco y el vino, famosa por el impresionante **Oasis de Huacachina**, un oasis natural rodeado de dunas gigantes perfectas para el **sandboarding** y emocionantes paseos en **tubulares**. Es el punto de partida para la **ruta del pisco y el vino**, y está cerca de las misteriosas **Líneas de Nazca**.",
+        "descripcion_detallada": "Tierra del pisco y el vino, famosa por el impresionante Oasis de Huacachina, un oasis natural rodeado de dunas gigantes perfectas para el sandboarding y emocionantes paseos en tubulares. Es el punto de partida para la ruta del pisco y el vino, y está cerca de las misteriosas Líneas de Nazca.",
         "accesibilidad_texto": "Alta"
     },
     # Cajamarca (Departamento: Cajamarca)
@@ -262,7 +262,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["alta"]
         },
-        "descripcion_detallada": "La 'Flor del Cumbe', un destino andino con gran valor histórico y natural. Descansa en los relajantes **Baños del Inca**, explora las enigmáticas **Ventanillas de Otuzco** y sumérgete en su vibrante cultura, especialmente durante su famoso **Carnaval de Cajamarca**.",
+        "descripcion_detallada": "La 'Flor del Cumbe', un destino andino con gran valor histórico y natural. Descansa en los relajantes Baños del Inca, explora las enigmáticas Ventanillas de Otuzco y sumérgete en su vibrante cultura, especialmente durante su famoso Carnaval de Cajamarca.",
         "accesibilidad_texto": "Alta"
     },
     # Piura (Departamento: Piura)
@@ -281,7 +281,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["alta"]
         },
-        "descripcion_detallada": "Un destino costero que alberga playas mundialmente famosas como **Máncora**, **Vichayito** y **Los Órganos**, ideales para el **surf**, **kitesurf** y el relax. En temporada, se puede disfrutar del **avistamiento de ballenas jorobadas**. También es reconocida por su deliciosa **gastronomía marina** y la **cerámica de Chulucanas**.",
+        "descripcion_detallada": "Un destino costero que alberga playas mundialmente famosas como Máncora, Vichayito y Los Órganos, ideales para el surf, kitesurf y el relax. En temporada, se puede disfrutar del avistamiento de ballenas jorobadas. También es reconocida por su deliciosa gastronomía marina y la cerámica de Chulucanas.",
         "accesibilidad_texto": "Alta"
     },
     # Ayacucho (Departamento: Ayacucho)
@@ -300,7 +300,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["fin de semana", "semana"],
             "Accesibilidad": ["media"]
         },
-        "descripcion_detallada": "Conocida como la 'Ciudad de las Iglesias' y por su impresionante **Semana Santa**, declarada Patrimonio Cultural de la Nación. Su centro histórico es un tesoro de arquitectura colonial y la **artesanía en piedra de Huamanga**. Cerca se encuentran las impresionantes **Aguas Turquesas de Millpu**, un paraíso natural.",
+        "descripcion_detallada": "Conocida como la 'Ciudad de las Iglesias' y por su impresionante Semana Santa, declarada Patrimonio Cultural de la Nación. Su centro histórico es un tesoro de arquitectura colonial y la artesanía en piedra de Huamanga. Cerca se encuentran las impresionantes Aguas Turquesas de Millpu, un paraíso natural.",
         "accesibilidad_texto": "Media"
     },
     # Andahuaylas (Departamento: Apurímac)
@@ -319,7 +319,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["semana", "viaje largo"],
             "Accesibilidad": ["moderada"]
         },
-        "descripcion_detallada": "La 'Pradera de los Celajes', un auténtico destino andino con paisajes de ensueño. Explora la mística **Laguna de Pacucha**, el singular **Bosque de Piedras de Pampachiri** y el complejo arqueológico de **Sóndor**. Un lugar para vivir una experiencia rural y cultural profunda, ideal para **trekking** y conectar con la tradición.",
+        "descripcion_detallada": "La 'Pradera de los Celajes', un auténtico destino andino con paisajes de ensueño. Explora la mística Laguna de Pacucha, el singular Bosque de Piedras de Pampachiri y el complejo arqueológico de Sóndor. Un lugar para vivir una experiencia rural y cultural profunda, ideal para trekking y conectar con la tradición.",
         "accesibilidad_texto": "Moderada"
     },
     # La Mar (Ayacucho) - Provincia de Ayacucho
@@ -338,7 +338,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["semana", "viaje largo"],
             "Accesibilidad": ["dificil"]
         },
-        "descripcion_detallada": "Una provincia de Ayacucho que ofrece paisajes vírgenes de sierra y selva alta. Es un destino para el viajero que busca **aventura extrema**, **senderismo desafiante** en rutas poco exploradas, y una inmersión auténtica en **comunidades andinas**. Destacan las **Cataratas de Banderacucho** y la cercanía a **Vilcashuamán**.",
+        "descripcion_detallada": "Una provincia de Ayacucho que ofrece paisajes vírgenes de sierra y selva alta. Es un destino para el viajero que busca aventura extrema, senderismo desafiante en rutas poco exploradas, y una inmersión auténtica en comunidades andinas. Destacan las Cataratas de Banderacucho y la cercanía a Vilcashuamán.",
         "accesibilidad_texto": "Difícil"
     },
     # Pichari (VRAEM, Cusco) - Distrito del VRAEM, asociado a Cusco
@@ -357,7 +357,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["semana", "viaje largo"],
             "Accesibilidad": ["muy dificil"]
         },
-        "descripcion_detallada": "Ubicado en el corazón del VRAEM, Pichari es un destino de selva alta que sorprende con su exuberante naturaleza. Es famoso por la majestuosa **Catarata Rey del VRAEM** y por sus **rutas de agroturismo** donde se puede aprender sobre el **café y cacao orgánicos**. Ideal para una aventura auténtica y contacto con **comunidades Asháninkas**.",
+        "descripcion_detallada": "Ubicado en el corazón del VRAEM, Pichari es un destino de selva alta que sorprende con su exuberante naturaleza. Es famoso por la majestuosa Catarata Rey del VRAEM y por sus rutas de agroturismo donde se puede aprender sobre el café y cacao orgánicos. Ideal para una aventura auténtica y contacto con comunidades Asháninkas.",
         "accesibilidad_texto": "Muy Difícil"
     },
     # Amazonas (Departamento: Loreto)
@@ -376,7 +376,7 @@ lugares_turisticos_peru = [
             "Duración del Viaje": ["semana", "viaje largo"],
             "Accesibilidad": ["media"]
         },
-        "descripcion_detallada": "La 'Ciudad de las Nubes', puerta de entrada a la asombrosa fortaleza de **Kuélap**, la 'Machu Picchu del Norte', y a la imponente **Catarata Gocta**, una de las más altas del mundo. Descubre los misteriosos **Sarcófagos de Karajía** y sumérgete en la cultura ancestral de los Chachapoya.",
+        "descripcion_detallada": "La 'Ciudad de las Nubes', puerta de entrada a la asombrosa fortaleza de Kuélap, la 'Machu Picchu del Norte', y a la imponente Catarata Gocta, una de las más altas del mundo. Descubre los misteriosos Sarcófagos de Karajía y sumérgete en la cultura ancestral de los Chachapoya.",
         "accesibilidad_texto": "Media"
     },
     # ... Añadir al menos un destino por cada departamento del Perú.
