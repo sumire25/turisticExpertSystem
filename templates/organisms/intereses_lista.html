@@ -1,0 +1,13 @@
+{% for seccion in secciones %}
+    <div class="seccion-intereses">
+        <h3>{{ seccion.titulo }}</h3>
+        <p class="descripcion-seccion">{{ seccion.descripcion }}</p>
+        <div class="intereses-lista">
+            {% for interes in seccion.intereses %}
+                <img src="{{ interes.url }}" alt="{{ interes.alt }}" class="interes-img"
+                     data-interes="{{ interes.data_interes }}"
+                     data-seccion="{{ seccion.titulo }}">
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}

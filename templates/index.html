@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Selecciona tus intereses turísticos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <h2>Selecciona tus intereses turísticos</h2>
+    {% set secciones = [
+        {
+            'titulo': 'Clima',
+            'descripcion': 'Selecciona el clima de tu preferencia',
+            'intereses': [
+                {'url': url_for('static', filename='img/nublado.png'), 'alt': 'Nublado', 'data_interes': 'nublado'},
+                {'url': url_for('static', filename='img/soleado.png'), 'alt': 'Soleado', 'data_interes': 'soleado'}
+            ]
+        },
+        {
+            'titulo': 'Transporte',
+            'descripcion': 'Selecciona tu medio de transporte favorito',
+            'intereses': [
+                {'url': url_for('static', filename='img/bus.png'), 'alt': 'Bus', 'data_interes': 'bus'},
+                {'url': url_for('static', filename='img/vuelo.png'), 'alt': 'Vuelo', 'data_interes': 'vuelo'}
+            ]
+        },
+        {
+            'titulo': 'Cultura y Gastronomía',
+            'descripcion': 'Selecciona tus intereses culturales o gastronómicos',
+            'intereses': [
+                {'url': url_for('static', filename='img/cultura.jfif'), 'alt': 'Cultura', 'data_interes': 'cultura'},
+                {'url': url_for('static', filename='img/gastronomia.jpg'), 'alt': 'Gastronomía', 'data_interes': 'gastronomia'}
+            ]
+        },
+        {
+            'titulo': 'Atractivos',
+            'descripcion': 'Selecciona el tipo de atractivo que prefieres',
+            'intereses': [
+                {'url': url_for('static', filename='img/atractivos-ambientales.jpg'), 'alt': 'Atractivo Ambiental', 'data_interes': 'atractivo-ambiental'}
+            ]
+        }
+    ] %}
+    {% include 'organisms/intereses_lista.html' %}
+    {% set id = 'enviar' %}
+    {% set texto = 'Buscar lugares recomendados' %}
+    {% include 'atoms/button.html' %}
+    {% include 'organisms/resultados_lista.html' %}
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
